@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Select Subject" />
+
+    <Spinner
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Starting Time" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/startTime"
+            android:inputType="none"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Select Starting Time"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnStartTime"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/ic_clock_solid"
+            android:onClick="setTime"
+            android:text="Start Time"
+            android:textColor="#FFFF"
+            android:background="#17a2b8"
+            android:padding="5dp"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/endTime"
+            android:inputType="none"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint=" Select Ending Time"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnEndTime"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/ic_clock_solid"
+            android:onClick="setTime"
+            android:text="End Time"
+            android:textColor="#FFFF"
+            android:background="#17a2b8"
+            android:padding="5dp"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/objective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Objective"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/readingMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reading Material"
+            android:layout_margin="5dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="#FFFF"
+            android:background="#17a2b8"
+            android:padding="5dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btn_okay"
+            android:onClick="addSubjectMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Okay"
+            android:textColor="#FFFF"
+            android:background="#17a2b8"
+            android:padding="5dp"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "579456307221",
+    "firebase_url": "https://lucifilia-nhce-smart-education.firebaseio.com",
+    "project_id": "lucifilia-nhce-smart-education",
+    "storage_bucket": "lucifilia-nhce-smart-education.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579456307221:android:1ed8fba1c17c7734ef3e1c",
+        "android_client_info": {
+          "package_name": "com.nhce.saloni.smartEducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579456307221-fk4cmvf29vq1qeh8he8f8d9pv571plp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nhce.saloni.smartEducation",
+            "certificate_hash": "12db7daaf0235e5612d63782fc20c1f7218c9187"
+          }
+        },
+        {
+          "client_id": "579456307221-k716tca6cbj695smmbeau914k5eqf3hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARhnu1J4F3hf46DVxeyJz3xIyM-iJ_AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579456307221-k716tca6cbj695smmbeau914k5eqf3hn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
